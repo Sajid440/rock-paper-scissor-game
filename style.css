@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #191825;
+    color: #f7d71e;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 2rem;
+}
+.circal-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.circal{
+    height: 6rem;
+    width: 6rem;
+    border: 2px solid #f7d71e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 0.3s all ;
+}
+.circal:hover{
+    scale: 1.05;
+}
+.hand-container{
+    display: flex;
+    gap: 7rem;
+    font-size: 1.5rem;
+}
+.user-hand{
+    height: 6rem;
+    width: 6rem;
+    border: 2px solid #f7d71e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 7rem; */
+
+}
+.computer-hand{
+    height: 6rem;
+    width: 6rem;
+    border: 2px solid #f7d71e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    /* gap: 1rem; */
+
+
+}
+.score-container{
+    display: flex;
+    gap: 3rem;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.computer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.msg{
+    font-size: 2.4rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #f7d71e;
+    color: #191825;
+}
